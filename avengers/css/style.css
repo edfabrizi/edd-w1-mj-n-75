@@ -1,0 +1,78 @@
+header {
+    text-align: center;
+    font-size: 60px;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    background-image: url(../img/torre-vengadores.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+#titulo-principal {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#hulk {
+    color: green;
+}
+#thor {
+    color: rgb(20, 20, 46);
+}
+#avispa {
+    color: oldlace;
+}
+#ironman {
+    color: red;
+}
+#cap {
+    color: lightslategray;
+}
+img {
+    width: 350px;
+    height: auto;
+    margin-top: 75px;
+}
+nav {
+    padding: 20px;
+    margin: 10px;
+}
+nav li {
+    float: left;
+    border-right: 2px solid;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+    color: #000;
+}
+nav li a.black :hover {
+    background-color: green;
+}
+nav li a.gris :hover {
+    background-color: grey;
+}          
+p {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-align: justify;
+    padding: 10px;
+    margin: 20px;
+    font-size: 1.5rem;
+}
+a.red {
+    color: red;
+}
+body {
+    text-align: center;
+}
+main {
+    background-color:rgba(0,0,0,0.65);
+    width: 80%;
+    margin: auto;
+}
