@@ -79,6 +79,16 @@ figure h2 {
     font-size: 2rem;
     line-height: 125%;
 }
+#tabla-posiciones table { 
+    margin: auto;
+}
+#tabla-posiciones table th {
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    font size: 1.6rem;
+    padding: 1.5rem;
+}
 .noticia-txt p:nth-of-type(1) {
     line-height: 200% ;
 }
