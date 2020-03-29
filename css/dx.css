@@ -51,27 +51,40 @@ img {
     width: 100%;
 }
 figure figcaption {
-    background-color: #232323;
+    background-color:   #232323;
 }
 figure h2 {
     color: #fff;
     font-weight: bold;
     font-size: 4rem;
     padding: 2rem;
-    line-height: 100%   ;
+    line-height: 100%;
 }
 .noticia {
     display: flex;
     flex-direction: row;
-    justify-content: ???;
-    align-items: ???;
-}
+    justify-content: space-evenly; /* flex-star - flex-end - center - space between - space around - */
+    align-items: center; /* flex star - flex-end - center - stretch */
+    
+    min-height: 15rem;
+} 
 .noticia-img {
-    width: 30%;
+    width: 25%;
 }
-.noticia.txt {
-    width: 70%;
-    background-color: lightgreen;
+.noticia-txt {
+    width: 65%;
+}   
+.noticia-txt h3 {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 125%;
+}
+.noticia-txt p:nth-of-type(1) {
+    line-height: 200% ;
+}
+.noticia-txt p:nth-of-type(1) a {
+    text-decoration: none;
+    color:#000;
 }
 
 @keyframes slider {
